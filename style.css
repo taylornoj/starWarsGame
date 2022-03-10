@@ -52,5 +52,7 @@ button {
   padding: 20px 50px;
   border-radius: 5px;
   z-index: 200;
-
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
