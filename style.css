@@ -56,3 +56,10 @@ button {
   border: none;
   outline: none;
 }
+
+.game {
+  border: 2px solid black;
+  width: 600px;
+  height: 400px;
+
+}
