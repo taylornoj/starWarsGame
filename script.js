@@ -1,1 +1,2 @@
-const holes = document.querySelectorAll('hole');
+const holes = document.querySelectorAll('.hole');
+console.log(holes)
