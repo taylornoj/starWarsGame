@@ -72,3 +72,9 @@ button {
   /* shorthand for flexgrow, flexshrink and flexbasis */
   flex: 1 0 33.33%
 }
+
+.hole:after {
+  content: '';
+  display: block;
+  
+}
