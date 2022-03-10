@@ -16,4 +16,6 @@ function pickRandomHole(holes) {
   if (hole === lastHole) {
     return pickRandomHole(hole);
   }
+  lastHole = hole;
+  return hole;
 }
