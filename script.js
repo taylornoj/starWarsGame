@@ -1,2 +1,3 @@
 const holes = document.querySelectorAll('.hole');
-console.log(holes)
+const scoreBoard = document.querySelector('.score');
+const moles = document.querySelectorAll('.mole')
