@@ -88,3 +88,12 @@ button {
   background-size: contain;
 
 }
+
+.mole {
+  background-image: url('/docs/yoda1.png');
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  
+}
