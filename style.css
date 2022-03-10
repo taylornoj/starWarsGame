@@ -63,5 +63,8 @@ button {
   height: 400px;
   margin: 70px auto;
   z-index: 200;
+}
 
+.hole {
+  border: 3px solid red;
 }
