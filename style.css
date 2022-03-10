@@ -63,8 +63,11 @@ button {
   height: 400px;
   margin: 70px auto;
   z-index: 200;
+  display: flex;
 }
 
 .hole {
   border: 3px solid red;
+  /* shorthand for flexgrow, flexshrink and flexbasis */
+  flex: 1 0 33.33%
 }
