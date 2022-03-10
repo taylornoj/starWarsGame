@@ -11,5 +11,5 @@ let score = 0;
 let countdown;
 
 function pickRandomHole(holes) {
-  
+  const randomHole = Math.floor(Math.random() * holes.length);
 }
