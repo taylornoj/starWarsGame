@@ -64,6 +64,7 @@ button {
   margin: 70px auto;
   z-index: 200;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .hole {
