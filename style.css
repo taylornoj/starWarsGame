@@ -70,11 +70,20 @@ button {
 .hole {
   border: 3px solid red;
   /* shorthand for flexgrow, flexshrink and flexbasis */
-  flex: 1 0 33.33%
+  flex: 1 0 33.33%;
+  position: relative;
 }
 
 .hole:after {
   content: '';
   display: block;
-  
+  background-image: url('/docs/sand1.png');
+  /* background: black; */
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  z-index: 2;
+  bottom: -30px;
+  background-size: contain;
+
 }
