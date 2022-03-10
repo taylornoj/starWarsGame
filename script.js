@@ -9,3 +9,7 @@ let timeUp = false;
 let timeLimit = 20000;
 let score = 0;
 let countdown;
+
+function pickRandomHole(holes) {
+  
+}
