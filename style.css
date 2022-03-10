@@ -42,7 +42,12 @@ body {
   color: #010124;
 }
 
-.button {
+button {
   position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: #010124;
+  color: white;
 
 }
