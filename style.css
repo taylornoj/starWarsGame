@@ -58,7 +58,7 @@ button {
 }
 
 .game {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   width: 600px;
   height: 400px;
   margin: 70px auto;
