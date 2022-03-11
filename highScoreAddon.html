@@ -5,4 +5,12 @@
   let score = 0;
   // if there already a high score or not?
   let highScore =  localStorage.getItem('game1HighScore') || 0;
+  highscoreBoard.textContent = 'HIGH SCORE: ' + highScore;
+
+  // will run everytime we score or game ends, check current score
+  // and compare it to high score and if its higher, will replace
+  // high score in local storage
+  function checkHighScore() {
+
+  }
 </script>
