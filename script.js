@@ -59,3 +59,9 @@ function startGame() {
     }
   }, 1000)
 }
+
+startButton.addEventListener('click', startGame);
+
+function whack(e) {
+  
+}
