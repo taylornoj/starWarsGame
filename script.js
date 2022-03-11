@@ -52,5 +52,10 @@ function startGame() {
     // we are counting down from 20 and displaying that as well
     countdown -= 1;
     countdownBoard.textContent = countdown;
+    if (countdown < 0) {
+      countdown = 0;
+      clearInterval(startCountdown);
+      countdownBoard.textContent = "Time is up!"
+    }
   }, 1000)
 }
