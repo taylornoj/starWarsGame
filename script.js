@@ -65,9 +65,12 @@ startButton.addEventListener('click', startGame);
 function whack(e) {
   score++;
   this.style.backgroundImage = "url('/docs/yoda2.png')";
+  this.style.pointerEvents = 'none';
   setTimeout(() => {
     this.style.backgroundImage = "url('/docs/yoda1.png')";
-  }, 800)
+    this.style.pointerEvents = 'all';
+  }, 800);
+  scoreBoard.textContent = score;
 }
 
 moles.forEach(mole => mole.addEventListener('click', whack));
