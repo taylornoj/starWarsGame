@@ -29,5 +29,28 @@ function popOut() {
     if (!timeUp) popOut();
   }, time);
 }
-popOut();
+// popOut();
 
+function startGame() {
+  countdown = timeLimit/1000;
+  scoreBoard.textContent = 0;
+  // score to be invisible before starting game
+  scoreBoard.style.display = 'block';
+  countdownBoard.textContent = countdown;
+  // incase we played before and it was set to true in previous game
+  timeUp = false;
+  // a reset
+  score = 0;
+  // causing moles to pop out of holes
+  popOut();
+  setTimeout(function() {
+    timeUp = true;
+  }, timeLimit);
+
+  // run callback over and over
+  let startCountdown = setInterval(function() {
+    // we are counting down from 20 and displaying that as well
+    countdown -= 1;
+    countdownBoard.textContent = countdown;
+  }, 1000)
+}
