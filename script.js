@@ -29,5 +29,5 @@ function popOut() {
     if (!timeUp) popOut();
   }, time);
 }
-
 popOut();
+
