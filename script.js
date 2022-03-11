@@ -26,5 +26,6 @@ function popOut() {
   hole.classList.add('up');
   setTimeout(function() {
     hole.classList.remove('up');
+    if (!timeUp) popOut();
   }, time)
 }
