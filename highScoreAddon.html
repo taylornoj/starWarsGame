@@ -3,5 +3,6 @@
 
   const highscoreBoard = document.querySelector('.highscore');
   let score = 0;
-  let highScore =  localStorage.getItem('game1HighScore');
+  // if there already a high score or not?
+  let highScore =  localStorage.getItem('game1HighScore') || 0;
 </script>
