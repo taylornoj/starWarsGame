@@ -42,7 +42,7 @@ function startGame() {
   scoreBoard.textContent = 0;
   // score to be invisible before starting game
   scoreBoard.style.display = 'block';
-  countdownBoard.textContent = countdown;
+  countdownBoard.textContent = 'COUNTDOWN: ' + countdown;
   // incase we played before and it was set to true in previous game
   timeUp = false;
   // a reset
@@ -57,7 +57,7 @@ function startGame() {
   let startCountdown = setInterval(function() {
     // we are counting down from 20 and displaying that as well
     countdown -= 1;
-    countdownBoard.textContent = countdown;
+    countdownBoard.textContent = 'COUNTDOWN: ' + countdown;
     if (countdown < 0) {
       countdown = 0;
       clearInterval(startCountdown);
@@ -77,7 +77,7 @@ function whack(e) {
     this.style.backgroundImage = "url('/docs/yoda1.png')";
     this.style.pointerEvents = 'all';
   }, 800);
-  scoreBoard.textContent = 'CURRENT SCORE: ' + score;
+  scoreBoard.textContent = score;
 }
 
 moles.forEach(mole => mole.addEventListener('click', whack));
