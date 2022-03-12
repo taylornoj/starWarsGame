@@ -62,7 +62,7 @@ function startGame() {
       countdown = 0;
       clearInterval(startCountdown);
       checkHighScore();
-      countdownBoard.textContent = "Time is up!"
+      countdownBoard.textContent = "GAME OVER"
     }
   }, 1000)
 }
