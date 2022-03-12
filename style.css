@@ -42,7 +42,7 @@ body {
   font-size: 22px;
   font-weight: 900;
   text-shadow: 2px 2px 3px rgba(2, 2, 2, 0.2);
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 10px 15px;
   border-radius: 5px;
   font-family: 'Orbitron', sans-serif;
@@ -55,7 +55,7 @@ body {
   font-size: 22px;
   font-weight: 900;
   text-shadow: 2px 2px 3px rgba(2, 2, 2, 0.2);
-  background-color: rgba(255,255,255,0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 10px 15px;
   border-radius: 5px;
   font-family: 'Orbitron', sans-serif;
@@ -67,7 +67,7 @@ body {
   font-size: 20px;
   text-align: center;
   color: #010124;
-  background-color:rgba(255,255,255,0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   padding: 10px 15px;
   border-radius: 5px;
   left: 50%;
@@ -140,5 +140,3 @@ button {
 .hole.up .mole {
   top: 0;
 }
-
-
