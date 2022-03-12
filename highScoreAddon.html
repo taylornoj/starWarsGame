@@ -11,6 +11,11 @@
   // and compare it to high score and if its higher, will replace
   // high score in local storage
   function checkHighScore() {
+    if (score > localStorage.getItem('game1HighScore')) {
+      localStorage.setItem('game1HighScore', score);
+      highScore = score;
+      highscoreBoard.textContent = 'HIGH SCORE: ' + highScore;
+    }
 
   }
 </script>
