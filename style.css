@@ -33,6 +33,12 @@ body {
   text-align: center;
 }
 
+.highScore {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 .countdown {
   position: absolute;
   top: 490px;
@@ -88,6 +94,8 @@ button {
   background-size: contain;
 
 }
+
+
 
 .mole {
   background-image: url('/docs/yoda1.png');

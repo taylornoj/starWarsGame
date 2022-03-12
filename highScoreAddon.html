@@ -1,7 +1,7 @@
-<div class="highscore">HIGH SCORE: 0</div>
+<div class="highScore">HIGH SCORE: 0</div>
 <script>
 
-  const highscoreBoard = document.querySelector('.highscore');
+  const highscoreBoard = document.querySelector('.highScore');
   let score = 0;
   // if there already a high score or not?
   let highScore =  localStorage.getItem('game1HighScore') || 0;
@@ -16,6 +16,5 @@
       highScore = score;
       highscoreBoard.textContent = 'HIGH SCORE: ' + highScore;
     }
-
   }
 </script>
