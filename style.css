@@ -30,7 +30,8 @@ body {
   width: 12%;
   height: 88px;
   z-index: 2;
-  bottom: -5px;
+  bottom: 8px;
+  left: 15px;
   background-size: contain;
 
 }
@@ -51,8 +52,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%); */
 
-  bottom: 17px;
-  left: 12%;
+  bottom: 29px;
+  left: 13%;
 
   font-size: 22px;
   font-weight: 900;
@@ -60,6 +61,8 @@ body {
   background-color: rgba(255,255,255,0.3);
   padding: 10px 15px;
   border-radius: 5px;
+
+  font-family: 'Orbitron', sans-serif;
 }
 
 .highScore {
@@ -72,6 +75,7 @@ body {
   background-color: rgba(255,255,255,0.3);
   padding: 10px 15px;
   border-radius: 5px;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .countdown {
@@ -98,17 +102,19 @@ body {
 
 button {
   position: absolute;
-  bottom: 30px;
-  left: 80%;
+  bottom: 28px;
+  left: 79%;
   /* transform: translate(-50%, 0); */
   background: #010124;
   color: white;
-  padding: 20px 30px;
+  padding: 18px 25px;
   border-radius: 5px;
   z-index: 200;
   cursor: pointer;
   border: none;
   outline: none;
+  font-family: 'Orbitron', sans-serif;
+  font-size: medium;
 }
 
 .game {
@@ -170,8 +176,3 @@ button {
 }
 
 
-@keyframes blink {
-  to {
-    visibility: hidden
-  }
-}
