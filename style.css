@@ -18,14 +18,14 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-image: url('/docs/background.png');
+  background-image: url('./docs/background.png');
   overflow: hidden;
 }
 
 .yodaImg {
   content: '';
   display: block;
-  background-image: url('/docs/yodafavicon.png');
+  background-image: url('./docs/yodafavicon.png');
   position: absolute;
   width: 12%;
   height: 88px;
@@ -109,7 +109,7 @@ button {
 .hole:after {
   content: '';
   display: block;
-  background-image: url('/docs/sand1.png');
+  background-image: url('./docs/sand1.png');
   position: absolute;
   width: 100%;
   height: 70px;
@@ -119,7 +119,7 @@ button {
 }
 
 .mole {
-  background-image: url('/docs/yoda1.png');
+  background-image: url('./docs/yoda1.png');
   position: absolute;
   top: 100%;
   width: 100%;
