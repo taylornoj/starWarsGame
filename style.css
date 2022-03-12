@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -74,7 +76,7 @@ body {
 
 .countdown {
   position: absolute;
-  /* top: 50%; */
+  top: 50%;
   /* width: 100%; */
   font-size: 20px;
   text-align: center;
@@ -83,12 +85,15 @@ body {
   background-color:rgba(255,255,255,0.3);
   padding: 10px 15px;
   border-radius: 5px;
-  bottom: 80px;
+  
+  /* bottom: 80px; */
   left: 50%;
 
-  
+  transform: translate(-50%, -50%);
 
-  /* animation: blink 1s steps(4, start) infinite; */
+  font-family: 'Orbitron', sans-serif;
+
+  /* animation: blink 1.4s steps(4, start) infinite; */
 }
 
 button {
