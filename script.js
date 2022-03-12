@@ -77,7 +77,7 @@ function whack(e) {
     this.style.backgroundImage = "url('/docs/yoda1.png')";
     this.style.pointerEvents = 'all';
   }, 800);
-  scoreBoard.textContent = score;
+  scoreBoard.textContent = 'CURRENT SCORE: ' + score;
 }
 
 moles.forEach(mole => mole.addEventListener('click', whack));

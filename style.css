@@ -20,17 +20,44 @@ body {
   overflow: hidden;
 }
 
+.yodaImg {
+  content: '';
+  display: block;
+  background-image: url('/docs/yodafavicon.png');
+  position: absolute;
+  width: 12%;
+  height: 88px;
+  z-index: 2;
+  bottom: -5px;
+  background-size: contain;
+
+}
+
 .score {
-  font-size: 150px;
+  /* font-size: 150px;
   color: #010124;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* border: 1px solid black; */
-  width: 200px;
+  /* width: 200px;
   height: 100px;
-  text-align: center;
+  text-align: center;  */
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+
+  bottom: 17px;
+  left: 60%;
+
+  font-size: 22px;
+  font-weight: 900;
+  text-shadow: 2px 2px 3px rgba(2, 2, 2, 0.2);
+  background-color: rgba(255,255,255,0.3);
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
 .highScore {
@@ -47,18 +74,21 @@ body {
 
 .countdown {
   position: absolute;
-  top: 490px;
+  top: 50%;
   width: 100%;
   font-size: 20px;
   text-align: center;
   color: #010124;
-  animation: blink 1s steps(4, start) infinite;
+
+  
+
+  /* animation: blink 1s steps(4, start) infinite; */
 }
 
 button {
   position: absolute;
   bottom: 10px;
-  left: 50%;
+  left: 40%;
   transform: translate(-50%, 0);
   background: #010124;
   color: white;
