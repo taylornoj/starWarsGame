@@ -8,6 +8,8 @@ I modified some visual features such as the countdown and Yoda counter.
 
 As stretch, I built an add on that tracks, updates and stores high score.  Even if you close your browser, the next time you open the game, your high score will still be present.
 
+Play the game here: https://taylornoj.github.io/starWarsGame/
+
 
 ![gif](https://github.com/taylornoj/starWarsGame/blob/main/docs/ezgif.com-gif-maker%20(26).gif?raw=true)
 
